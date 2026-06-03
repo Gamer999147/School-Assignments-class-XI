@@ -1,3 +1,6 @@
 print ("what is your name?")
 name = input()
-print ("Hello " + name + "!")
+print ("Hello " + name + "!!")
+print ('How are you doing? ')
+answer = input()
+print ('I am glad to hear that you are doing ' + answer + '!!')
