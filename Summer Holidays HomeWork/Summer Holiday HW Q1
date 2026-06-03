@@ -1,0 +1,13 @@
+#hcm=height in cm
+#hinch=height in inches
+#hft=height in feet
+
+from unicodedata import decimal
+
+
+hcm=int(input('Enter your height in centimeters '))
+hinch=hcm/2.54
+print('Your height in inches is ',hinch,'inches')
+hft=hinch//12
+hrem=round(hinch%12, 1)
+print('Your height in feet and inches is ',hft,'feet and ',hrem,'inches')

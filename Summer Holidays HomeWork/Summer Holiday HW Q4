@@ -1,0 +1,5 @@
+n=int(input('Enter a number between 1 to 7: '))
+an=n+1
+bn=n+2
+final=(n*100)+(an*10)+bn
+print('The final three-digit number is ',final)
